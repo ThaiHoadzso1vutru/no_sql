@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Admin website for film app">
+  <meta name="author" content="TAVUX">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- MDB -->
+  {{!--
+  <link rel="stylesheet" href="/mdb/css/mdb.min.css" /> --}}
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Plugin file MDB-->
+  <link rel="stylesheet" href="/mdb/css/addons/datatables.min.css">
+
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <!-- FontAwesome JS-->
+  <script defer src="/assets/plugins/fontawesome/js/all.min.js"></script>
+
+  <!-- App CSS -->
+  <link id="theme-style" rel="stylesheet" href="/assets/css/portal.css">
+
+  {{!-- sweet alert dialog --}}
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2.min.css">
+  {{!-- end sweet alert dialog --}}
+
+  {{!-- select2 setup --}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  {{!-- select2 setup --}}
+
+  {{!-- Toast sweet alert setup css --}}
+  <style>
+    .colored-toast.swal2-icon-success {
+      background-color: #a5dc86 !important;
+    }
+
+    .colored-toast.swal2-icon-error {
+      background-color: #f27474 !important;
+    }
+
+    .colored-toast.swal2-icon-warning {
+      background-color: #f8bb86 !important;
+    }
+
+    .colored-toast.swal2-icon-info {
+      background-color: #3fc3ee !important;
+    }
+
+    .colored-toast.swal2-icon-question {
+      background-color: #87adbd !important;
+    }
+
+    .colored-toast .swal2-title {
+      color: white;
+    }
+
+    .colored-toast .swal2-close {
+      color: white;
+    }
+
+    .colored-toast .swal2-html-container {
+      color: white;
+    }
+  </style>
+  {{!-- Toast sweet alert setup css --}}
+</head>
+
+<body>
+  {{{body}}}
+  <script src="/assets/plugins/popper.min.js"></script>
+  <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="/assets/plugins/chart.js/chart.min.js"></script>
+  <script src="/assets/js/index-charts.js"></script>
+
+  {{!-- MDB --}}
+  <script type="text/javascript" src="/mdb/js/popper.min.js"></script>
+  <script type="text/javascript" src="/mdb/js/mdb.min.js"></script>
+  <!-- Plugin file MDB -->
+  <script src="/mdb/js/addons/datatables.min.js"></script>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
